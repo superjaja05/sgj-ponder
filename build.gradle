@@ -2,10 +2,11 @@ plugins {
     id 'idea'
     id 'maven-publish'
     id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+    id 'org.parchmentmc.librarian.forgegradle' version '1.+'
     // Adds the Kotlin Gradle plugin
-    id 'org.jetbrains.kotlin.jvm' version '1.8.22'
+    id 'org.jetbrains.kotlin.jvm' version '2.0.0'
     // OPTIONAL Kotlin Serialization plugin
-    id 'org.jetbrains.kotlin.plugin.serialization' version '1.8.22'
+    //id 'org.jetbrains.kotlin.plugin.serialization' version '2.0.0'
 }
 
 version = mod_version
