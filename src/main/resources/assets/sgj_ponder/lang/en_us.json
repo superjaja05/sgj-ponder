@@ -1,0 +1,6 @@
+{
+	"sgj_ponder.ponder.var_crystal.header": "Stargate Variant Crystal Usage",
+	"sgj_ponder.ponder.tag.var_crystal": "Stargate Variant Crystals",
+	"sgj_ponder.ponder.tag.var_crystal.description": "Crystals that can change the appearance of a Stargate",
+	"sgj_ponder.ponder.var_crystal.text_1": "Right click the gate to apply the variant"
+}
