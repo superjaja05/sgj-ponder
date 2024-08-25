@@ -1,2 +1,3 @@
-# Kotlin Modding Skeleton
-Provides an example mod written in Kotlin using Kotlin for Forge.
+# SGJ Ponder
+A dumb mod that adds ponders for stargate variants
+Very WIP and i have no idea what im doing
