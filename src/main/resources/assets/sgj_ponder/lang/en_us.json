@@ -1,6 +1,14 @@
 {
-	"sgj_ponder.ponder.var_crystal.header": "Stargate Variant Crystal Usage",
+	"sgj_ponder.ponder.var_crystal.header": "How to use a variant crystal",
+	"sgj_ponder.ponder.var_mw_display.header": "All the Milky Way gate variants",
+	"sgj_ponder.ponder.var_pegasus_display.header": "All the Pegasus gate variants",
+	"sgj_ponder.ponder.var_universe_display.header": "All the Universe gate variants",
+	"sgj_ponder.ponder.var_tollan_display.header": "All the Tollan gate variants",
+	"sgj_ponder.ponder.var_classic_display.header": "All the Classic gate variants",
+
+
 	"sgj_ponder.ponder.tag.var_crystal": "Stargate Variant Crystals",
 	"sgj_ponder.ponder.tag.var_crystal.description": "Crystals that can change the appearance of a Stargate",
-	"sgj_ponder.ponder.var_crystal.text_1": "Right click the gate to apply the variant"
+	"sgj_ponder.ponder.var_crystal.text_1": "Right click the gate to apply the variant",
+	"sgj_ponder.ponder.var_crystal.text_2": "Each variant only works on one specific type of gate"
 }

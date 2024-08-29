@@ -45,7 +45,11 @@ class ponderStuff {
     fun register() {
         LOGGER.info("Loading Ponder..")
         HELPER.addStoryBoard(ResourceLocation(StargateJourney.MODID+ ":stargate_variant_crystal"), "gate_pedestal", ponderScenes()::variantCrystal, VARIANT_CRYSTAL)
-        HELPER.addStoryBoard(ResourceLocation(StargateJourney.MODID+ ":stargate_variant_crystal"), "gate_pedestal", ponderScenes()::variantCrystalDisplay, VARIANT_CRYSTAL)
+        HELPER.addStoryBoard(ResourceLocation(StargateJourney.MODID+ ":stargate_variant_crystal"), "gate_pedestal", ponderScenes()::variantCrystalDisplayMW, VARIANT_CRYSTAL)
+        HELPER.addStoryBoard(ResourceLocation(StargateJourney.MODID+ ":stargate_variant_crystal"), "gate_pedestal", ponderScenes()::variantCrystalDisplayPegasus, VARIANT_CRYSTAL)
+        HELPER.addStoryBoard(ResourceLocation(StargateJourney.MODID+ ":stargate_variant_crystal"), "gate_pedestal", ponderScenes()::variantCrystalDisplayUniverse, VARIANT_CRYSTAL)
+        HELPER.addStoryBoard(ResourceLocation(StargateJourney.MODID+ ":stargate_variant_crystal"), "gate_pedestal", ponderScenes()::variantCrystalDisplayTollan, VARIANT_CRYSTAL)
+        HELPER.addStoryBoard(ResourceLocation(StargateJourney.MODID+ ":stargate_variant_crystal"), "gate_pedestal", ponderScenes()::variantCrystalDisplayClassic, VARIANT_CRYSTAL)
 
         PonderRegistry.TAGS.forTag(VARIANT_CRYSTAL)
             .add(ResourceLocation(StargateJourney.MODID+ ":stargate_variant_crystal"))
