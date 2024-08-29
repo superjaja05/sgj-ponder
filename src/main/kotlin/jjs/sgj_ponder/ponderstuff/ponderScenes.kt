@@ -163,6 +163,7 @@ class ponderScenes {
         scene.world.modifyBlockEntityNBT(util.select.position(gate), PegasusStargateEntity::class.java) { nbt ->
             nbt.putString("Symbols", "sgjourney:galaxy_milky_way")
             nbt.putString("PointOfOrigin", "sgjourney:tauri")
+            nbt.putBoolean("DynamicSymbols", false)
         }
         scene.idle(5);
         scene.world.setBlock(gate, ForgeRegistries.BLOCKS.getValue(BlockInit.UNIVERSE_STARGATE.id)?.defaultBlockState(), false)
@@ -294,6 +295,7 @@ class ponderScenes {
         scene.world.modifyBlockEntityNBT(util.select.position(gate), PegasusStargateEntity::class.java) { nbt ->
             nbt.putString("Symbols", "sgjourney:galaxy_milky_way")
             nbt.putString("PointOfOrigin", "sgjourney:tauri")
+            nbt.putBoolean("DynamicSymbols", false)
         }
 
         scene.idle(20)
