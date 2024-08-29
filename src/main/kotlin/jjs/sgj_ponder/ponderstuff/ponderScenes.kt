@@ -54,6 +54,7 @@ fun variantDisplay(scene: SceneBuilder, util: SceneBuildingUtil, type: String, n
                 nbt.putString("Symbols", "sgjourney:terra")
                 nbt.putString("PointOfOrigin", "sgjourney:tauri")
                 nbt.putString("Variant", name)
+                nbt.putIntArray("Address", listOf<Int>(1,2,3,4,5,6))
             }
         }
         "sgjourney:universe_stargate" -> {
@@ -62,12 +63,14 @@ fun variantDisplay(scene: SceneBuilder, util: SceneBuildingUtil, type: String, n
                 nbt.putString("Symbols", "sgjourney:universal")
                 nbt.putString("PointOfOrigin", "sgjourney:universal")
                 nbt.putString("Variant", name)
+                nbt.putIntArray("Address", listOf<Int>(1,2,3,4,5,6))
             }
         }
         "sgjourney:tollan_stargate" -> {
             scene.world.setBlock(gate, ForgeRegistries.BLOCKS.getValue(BlockInit.TOLLAN_STARGATE.id)?.defaultBlockState(), false)
             scene.world.modifyBlockEntityNBT(util.select.position(gate), TollanStargateEntity::class.java) { nbt ->
                 nbt.putString("Variant", name)
+                nbt.putIntArray("Address", listOf<Int>(1,2,3,4,5,6))
             }
         }
         "sgjourney:milky_way_stargate" -> {
@@ -76,6 +79,7 @@ fun variantDisplay(scene: SceneBuilder, util: SceneBuildingUtil, type: String, n
                 nbt.putString("Symbols", "sgjourney:terra")
                 nbt.putString("PointOfOrigin", "sgjourney:terra")
                 nbt.putString("Variant", name)
+                nbt.putIntArray("Address", listOf<Int>(1,2,3,4,5,6))
             }
         }
         "sgjourney:pegasus_stargate" -> {
@@ -85,6 +89,7 @@ fun variantDisplay(scene: SceneBuilder, util: SceneBuildingUtil, type: String, n
                 nbt.putString("PointOfOrigin", "sgjourney:terra")
                 nbt.putBoolean("DynamicSymbols", false)
                 nbt.putString("Variant", name)
+                nbt.putIntArray("Address", listOf<Int>(1,2,3,4,5,6))
             }
         }
     }
