@@ -152,6 +152,7 @@ compileKotlin {
 }
 
 jar {
+    archiveBaseName.set("SGJ_Ponder")
     manifest {
         attributes([
                 'Specification-Title'     : mod_id,
