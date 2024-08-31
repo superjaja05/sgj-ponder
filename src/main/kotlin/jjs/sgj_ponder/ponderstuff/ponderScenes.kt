@@ -46,7 +46,6 @@ fun variantDisplay(scene: SceneBuilder, util: SceneBuildingUtil, type: String, n
     scene.world.setDisplayBoardText(display, 2, Component.literal(name_space))
     scene.world.setDisplayBoardText(display, 3, Component.literal(name_name))
 
-    scene.addKeyframe()
     when (type) {
         "sgjourney:classic_stargate" -> {
             scene.world.setBlock(gate, ForgeRegistries.BLOCKS.getValue(BlockInit.CLASSIC_STARGATE.id)?.defaultBlockState(), false)
@@ -93,10 +92,12 @@ fun variantDisplay(scene: SceneBuilder, util: SceneBuildingUtil, type: String, n
             }
         }
     }
+    scene.idle(5);
+    scene.addKeyframe()
     scene.idle(40);
 }
 
-fun getVariantsForType(type: String): MutableList<String> {
+fun getVariantsForType(type: String): List<String> {
     val minecraft = Minecraft.getInstance()
     val clientLevel: ClientLevel? = minecraft.level
 
