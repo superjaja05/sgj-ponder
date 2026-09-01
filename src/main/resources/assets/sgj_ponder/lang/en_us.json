@@ -1,4 +1,10 @@
 {
+	"sgj_ponder.ponder.variant_crystal_intro.header": "Using Stargate Variant Crystals",
+	"sgj_ponder.ponder.variant_crystal_mw.header": "Milky Way Variant Examples",
+	"sgj_ponder.ponder.shared.variant_crystal_apply": "Right-click a placed Stargate with a Variant Crystal to apply its style.",
+	"sgj_ponder.ponder.shared.no_milky_way_variants": "No Milky Way variants were found in the current registry.",
+	"sgj_ponder.ponder.shared.milky_way_variant": "Variant: %s",
+
 	"sgj_ponder.ponder.var_crystal.header": "How to use a variant crystal",
 	"sgj_ponder.ponder.var_mw_display.header": "All the Milky Way gate variants",
 	"sgj_ponder.ponder.var_pegasus_display.header": "All the Pegasus gate variants",
